@@ -6,7 +6,9 @@
       <class name="Project.SpiceJet.SpiceJetTests">
         <methods>
           <include name="openLink"/>
+          <include name="searchFlightsOneWay"/>
           <include name="bookTickets"/>
+          <include name="LoginPageFunction"/>
         </methods>
       </class> <!-- Project.SpiceJet.SpiceJetTests -->
     </classes>

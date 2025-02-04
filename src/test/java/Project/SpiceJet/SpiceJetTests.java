@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 public class SpiceJetTests {
 	static WebDriver driver;
-	static SignUpPage page;
+	static SignUpPageTest page;
 	static LoginPage page1;
 	static FlightsSearch page2;
 	static HomePage page3;
@@ -27,7 +27,7 @@ public class SpiceJetTests {
 }
 	@Test(enabled = false)
 public void signUpPage() throws InterruptedException {
-		page=new SignUpPage(driver);
+		page=new SignUpPageTest(driver);
 		page.signUpClick();
 		CommonFunctions.waitForFixTime(3000);
 		page.titleClick();
